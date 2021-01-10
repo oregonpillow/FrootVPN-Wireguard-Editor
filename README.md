@@ -6,7 +6,7 @@
 A simple function for batch editing multiple wireguard .conf files.
 
 ## Use-Case
-When you initiate a new Wireguard Public key on the FrootVPN website, the .conf files need to be manually modified to include the Private Key, address of FrootVPN Wireguard server and the Pre-Shared Key (if applicable). If you choose to download all 45+ wireguard configuation files this is a hassle.
+When you create a new Wireguard Public key on the FrootVPN website, the .conf files need to be manually modified to include the Private Key, address of FrootVPN Wireguard server and the Pre-Shared Key (if applicable). If you choose to download all 45+ wireguard configuation files this is a hassle.
 
 
 
