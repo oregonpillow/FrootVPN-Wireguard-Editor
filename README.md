@@ -13,9 +13,9 @@ When you create a new Wireguard Public key on the FrootVPN website, the .conf fi
 
 ```python
 
-from batch_editor import batch_edit
+from batch_editor import WireguardConf
 
-batch_edit(<path to folder containing .conf files>, <private key>, <ip_address>)
+WireguardConf(<path to folder containing .conf files>, <private key>, <ip_address>)
 
 ```
 
