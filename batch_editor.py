@@ -2,7 +2,7 @@ import os
 
 
 
-def batch_edit(configs_path, private_key, ip_address, public_key=None, psk=None, dns=None, endpoint=None, allowed_ips=None, keep_alive = None):
+def WireguardConf(configs_path, private_key, ip_address, public_key=None, psk=None, dns=None, endpoint=None, allowed_ips=None, keep_alive = None):
     """Wireguard Configuration File Settings.
 	Args:
 		configs_path (str):
