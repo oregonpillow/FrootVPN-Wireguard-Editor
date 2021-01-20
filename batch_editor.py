@@ -40,7 +40,7 @@ def batch_edit(configs_path, private_key, ip_address, public_key=None, psk=None,
                             output.write(str('Address = ' + ip_address))
                             output.write("\n")
                         elif 'PresharedKey' in line and psk != None:
-                            output.write(str('PresharedKey = ' + public_key))
+                            output.write(str('PresharedKey = ' + psk))
                             output.write("\n")
                         elif 'PresharedKey' in line and psk == None:
                             continue # skip writing psk line if we don't have one.
